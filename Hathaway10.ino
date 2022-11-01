@@ -550,26 +550,26 @@ void loop()
           delay(16*DELAY);
 
           turnOffLed2();
-          attentionStatus();
-          FastLED.show();
-          delay(DELAY);
-
-          turnOffLed2();
-          lookingRight();
-          FastLED.show();
-          delay(16*DELAY);
-
-          turnOffLed2();
           centralSmile();
           FastLED.show();
-          delay(16*DELAY);
+          delay(20*DELAY);
 
           turnOffLed2();
-          rightSpeakOn();
+          leftSpeakOn();
           text1On();
           text2On();
           FastLED.show();
+          delay(80*DELAY);
+
+          turnOffLed2();
+          lookingLeft();
+          FastLED.show();
           delay(16*DELAY);
+
+          turnOffLed2();
+          attentionStatus();
+          FastLED.show();
+          delay(DELAY);
 
           turnOffLed2();
           lookingRight();
@@ -780,23 +780,6 @@ void loop()
           delay(16*DELAY);
 
           turnOffLed2();
-          centralSmile();
-          FastLED.show();
-          delay(16*DELAY);
-
-          turnOffLed2();
-          leftSpeakOn();
-          text1On();
-          text2On();
-          FastLED.show();
-          delay(16*DELAY);
-
-          turnOffLed2();
-          lookingLeft();
-          FastLED.show();
-          delay(16*DELAY);
-
-          turnOffLed2();
           attentionStatus();
           FastLED.show();
           delay(DELAY);
@@ -807,9 +790,36 @@ void loop()
           delay(16*DELAY);
 
           turnOffLed2();
+          centralSmile();
+          FastLED.show();
+          delay(20*DELAY);
+
+          turnOffLed2();
+          rightSpeakOn();
+          text1On();
+          text2On();
+          FastLED.show();
+          delay(80*DELAY);
+
+          turnOffLed2();
+          lookingRight();
+          FastLED.show();
+          delay(16*DELAY);
+
+          turnOffLed2();
           attentionStatus();
           FastLED.show();
           delay(DELAY);
+
+
+
+
+
+
+
+
+    
+    
 
 
     
@@ -833,14 +843,14 @@ void loop()
           turnOffLed2();
           centralSmile();
           FastLED.show();
-          delay(16*DELAY);
+          delay(20*DELAY);
 
           turnOffLed2();
           leftSpeakOn();
           text1On();
           text2On();
           FastLED.show();
-          delay(16*DELAY);
+          delay(80*DELAY);
 
           turnOffLed2();
           lookingLeft();
@@ -860,14 +870,14 @@ void loop()
           turnOffLed2();
           centralSmile();
           FastLED.show();
-          delay(16*DELAY);
+          delay(20*DELAY);
 
           turnOffLed2();
           rightSpeakOn();
           text1On();
           text2On();
           FastLED.show();
-          delay(16*DELAY);
+          delay(80*DELAY);
 
           turnOffLed2();
           lookingRight();
